@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COVID-19</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+  <style></style>
+
+</head>
+<body>
+    <div class="container" >
+         <header class="text-center">
+           <h1>CORONA VIRUS (COVID-19) </h1>
+           <h2>Seguimiento de Casos  </h2>
+          <h3>Adrian Gonzalez</h3>
+         </header>
+         <div id="local" class="row"></div>
+          <form class="form-block my-4 my-lg-4">
+              <input class="form-control mr-sm-2" 
+                type="search" 
+                oninput="updateResult(this.value)"
+                placeholder="Buscar Pais" 
+                aria-label="Search">
+          </form>
+         <div id="item" class='row'></div>
+    </div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
